@@ -428,6 +428,11 @@ img {
   display: flex;
   justify-content: center;
 }
+
+.about_hobbit {
+  font-size: 14px;
+  margin: 20px 0;
+}
 /*==================== SKILLS ====================*/
 .skills__container {
   row-gap: 0;
@@ -511,7 +516,6 @@ img {
   width: 55%;
 }
 
-
 .skills__php {
   width: 90%;
 }
@@ -527,7 +531,6 @@ img {
 .skills__java {
   width: 55%;
 }
-
 
 .skills__figma {
   width: 80%;
@@ -565,6 +568,8 @@ img {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   cursor: pointer;
+  text-decoration: underline;
+
 }
 
 .qualification__button:hover {

@@ -142,7 +142,7 @@
                         <div class="about__info">
                             <div>
                                 <span class="about__info-title">06+</span>
-                                <span class="about__info-name">Know <br> technologies</span>
+                                <span class="about__info-name">Known <br> technologies</span>
                             </div>
                             <div>
                                 <span class="about__info-title">04+</span>
@@ -152,6 +152,11 @@
                                 <span class="about__info-title">01+</span>
                                 <span class="about__info-name">Companies <br> worked</span>
                             </div>
+                        </div>
+
+                        <div class="about_hobbit">
+                            <h3>Mes hobbits</h3>
+                            <p>Danse - Sewing <br> Painting - Weekend programming </p>
                         </div>
 
                         <div class="about__buttons">
@@ -622,11 +627,46 @@
                             </div>
                         </div>
                     </div>
+
+                    <!--==================== SERVICES 4 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-clipboard-notes services__icon"></i>
+                            <h3 class="services__title">Perform <br> Tasks</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Perform <br> Tasks</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I perform a needs analysis.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I formalize the client's need.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I know how to work in a team.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">à
+            <section class="portfolio section" id="portfolio">
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Most recent work</span>
 
@@ -634,7 +674,7 @@
                     <div class="swiper-wrapper">
                         <!--==================== PORTFOLIO 1 ====================-->
                         <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                            <img src="assets/img/portfolio1.png" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Website - ATMOS</h3>
@@ -644,7 +684,7 @@
 
                         <!--==================== PORTFOLIO 2 ====================-->
                         <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+                            <img src="assets/img/portfolio2.png" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Website - Supporters Solidaires</h3>
@@ -710,7 +750,7 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact__form grid">
+                    <form action="mailto:akpweh.maelle@hotmail.fr&" method="GET" class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label">Name</label>
@@ -726,11 +766,9 @@
                             <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
                         </div>
 
-                        <div>
-                            <a href="#" class="button button--flex">
-                                Send Message
-                                <i class="uil uil-message button__icon"></i>
-                            </a>
+                        <div class="button button--flex">
+                            <input type="submit" name="submit" value="Send Message"/>
+                            <i class="uil uil-message button__icon"></i>
                         </div>
                     </form>
                 </div>
